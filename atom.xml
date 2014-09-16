@@ -4,7 +4,7 @@
   <title><![CDATA[muyear‘s house]]></title>
   <link href="http://muyear.github.io/atom.xml" rel="self"/>
   <link href="http://muyear.github.io/"/>
-  <updated>2014-09-16T12:33:59+08:00</updated>
+  <updated>2014-09-16T13:03:54+08:00</updated>
   <id>http://muyear.github.io/</id>
   <author>
     <name><![CDATA[muyear]]></name>
@@ -12,5 +12,106 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[搭个博客]]></title>
+    <link href="http://muyear.github.io/blog/2014/09/16/hello-github-blog/"/>
+    <updated>2014-09-16T12:40:47+08:00</updated>
+    <id>http://muyear.github.io/blog/2014/09/16/hello-github-blog</id>
+    <content type="html"><![CDATA[<p>搭建步骤</p>
+
+
+
+
+<p>搭建本地环境(安装Git、安装Ruby、安装DevKit)</p>
+
+
+
+
+<p>配置环境(克隆Octopress、安装Octopress依赖项)</p>
+
+
+
+
+<p>将博客部署到GitHub上</p>
+
+
+
+
+<p>配置博客</p>
+
+
+
+
+<p>发表博客</p>
+
+
+
+
+<p>搭建具体步骤大牛们已经很详细了,我就不赘述了.</p>
+
+
+
+
+<p>参考</p>
+
+
+
+
+<p>http://blog.devtang.com/blog/2012/02/10/setup-blog-based-on-github/</p>
+
+
+
+
+<p>http://blog.csdn.net/jackystudio/article/details/16117585
+主题</p>
+
+
+
+
+<p>这是我使用的主题:</p>
+
+
+
+
+<p>$ git clone git@github.com:shashankmehta/greyshade.git .themes/greyshade
+$ echo &#8220;\$greyshade: color;&#8221; >> sass/custom/_colors.scss //Substitue &#8216;color&#8217; with your highlight color
+$ rake &#8220;install[greyshade]&#8221;
+$ rake generate</p>
+
+
+
+
+<p>使用完以后别忘记generate/deploy
+新浪微博
+发现 sina weibo 的添加不只是更改<em>config.yml
+首先在</em>config.yml 加上</p>
+
+
+
+
+<p>weibo_user: smallyin00
+其次添加“weibo.png” 到 “octopress/source/images/social”
+然后加代码到“octopress/sass/parts/_header.scss文件中</p>
+
+
+
+
+<p>&amp;.weibo{
+  background: image-url(&#8216;social/weibo.png&#8217;) center no-repeat #e32529;
+  border: 1px solid #e32529;
+  &amp;:hover{
+      border: 1px solid darken(#e32529, 10%);
+  }
+}
+最后加代码到octopress/source/_includes/header.html文件中</p>
+
+
+
+
+<p>&lt; a class=&#8221;weibo&#8221; href=&#8221;http://www.weibo.com/smallyin00&#8221; title=&#8221;Weibo&#8221;>Weibo</p>
+
+]]></content>
+  </entry>
   
 </feed>
