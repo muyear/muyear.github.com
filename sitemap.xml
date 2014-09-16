@@ -5,14 +5,28 @@
   
   <url>
     <loc>http://muyear.github.io/blog/archives/</loc>
-    <lastmod>2014-09-16T11:20:30+08:00</lastmod>
+    <lastmod>2014-09-16T12:15:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://muyear.github.io/archives/</loc>
+    <lastmod>2014-09-16T12:15:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://muyear.github.io/blog/</loc>
+    <lastmod>2014-09-16T12:15:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://muyear.github.io/</loc>
-    <lastmod>2014-09-16T11:20:30+08:00</lastmod>
+    <lastmod>2014-09-16T12:15:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
